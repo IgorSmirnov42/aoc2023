@@ -1,6 +1,6 @@
 package day14
 
-fun solve(grid: List<String>): Long {
+private fun solve(grid: List<String>): Long {
     var res = 0L
     for (col in grid[0].indices) {
         var lastSolid = -1
