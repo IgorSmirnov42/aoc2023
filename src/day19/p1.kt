@@ -1,12 +1,16 @@
 package day19
 
 import utils.readInput
+import kotlin.system.measureTimeMillis
 
 private fun solve(input: List<String>) {
 
 }
 
 fun main() {
-    solve(readInput("day19/sample.txt"))
-//    solve(readInput("day19/input.txt"))
+    val time = measureTimeMillis {
+        solve(readInput("day19/sample"))
+//    solve(readInput("day19/input"))
+    }
+    println("Time: $time")
 }

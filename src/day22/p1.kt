@@ -7,6 +7,6 @@ private fun solve(input: List<String>) {
 }
 
 fun main() {
-    solve(readInput("day22/sample.txt"))
-//    solve(readInput("day22/input.txt"))
+    solve(readInput("day22/sample"))
+//    solve(readInput("day22/input"))
 }
